@@ -25,8 +25,8 @@ The face of our project, this application provides a dynamic and interactive use
 To embark on your journey with the Airport Terminal Project, follow these steps:
 
 1. **Clone the Repository**: Secure a local copy of our project by cloning this repository.
-2. **Set Up the Database**: Initialize your SQL database using our schema and ensure it's operational.
-3. **Configure the Web API**: Adjust the Web API's connection strings to connect to your SQL database.
-4. **Launch the Web API**: Start serving flight data by running the ASP.NET Core Web API.
-5. **Run the Client Application**: Dive into the React application, install dependencies, and launch it.
-6. **Simulate Flight Data**: Utilize the standalone console application to create flight objects and send them to the Web API via HTTP requests.
+2. **Set Up the Database**: Initialize your SQL database using Entity Framwork Core in the terminal - 'add-migration' => 'update-database', ensure it was created and filled with seed data. 
+4. **Configure the Web API**: Adjust the Web API's connection strings to connect to your SQL database in the appsettings.json file => 'connectionstrings{"Vgym:<paste your connection string here>"}'.
+5. **Launch the Web API**: Start serving flight data by running the ASP.NET Core Web API.
+6. **Run the Client Application**: Dive into the React application, install dependencies - 'npm i', and launch it.
+7. **Simulate Flight Data**: Utilize the standalone console application by runing it to create flight objects and send them to the Web API via HTTP requests.
